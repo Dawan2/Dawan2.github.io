@@ -19,9 +19,8 @@ body {
 .project {
     max-width: 500px;
     margin: 30px auto;
-    background-color: #131313;
+    background-color: #202020;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 15px; /* Rounded corners for projects */
     position: relative;
     overflow: hidden;
@@ -54,7 +53,7 @@ body {
 }
 
 .project-language li {
-    background-color: #272727;
+    background-color: #3a3a3a;
     padding: 8px 12px;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out;
