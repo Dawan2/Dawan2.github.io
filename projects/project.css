@@ -8,12 +8,11 @@ body {
 }
 
 .header {
-    background-color: #e92a2a;
+    background-color: #ff0037;
     padding: 20px;
     font-size: 36px;
     font-weight: 700;
     text-align: center;
-
 }
 
 .project {
@@ -21,7 +20,7 @@ body {
     margin: 30px auto;
     background-color: #202020;
     padding: 20px;
-    border-radius: 15px; /* Rounded corners for projects */
+    border-radius: 15px;
     position: relative;
     overflow: hidden;
 }
@@ -34,8 +33,9 @@ body {
 
 .project-header {
     font-size: 36px;
+    font-weight: 700;
     margin-bottom: 10px;
-    color: #e92a2a;
+    color: #ff0037;
 }
 
 .project-description {
@@ -60,7 +60,7 @@ body {
 }
 
 .project-language li:hover {
-    background-color: #e92a2a;
+    background-color: #ff0037;
 }
 
 .project-link {
@@ -70,7 +70,7 @@ body {
 .project-link a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #e92a2a;
+    background-color: #ff0037;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -79,7 +79,7 @@ body {
 
 .project-link a:hover {
     background-color: #fff;
-    color: #e92a2a;
+    color: #ff0037;
 }
 
 .project-image-box {
