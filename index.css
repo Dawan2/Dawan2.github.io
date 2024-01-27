@@ -386,7 +386,8 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), url('./images/header.jpg');
+    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
+        url('./images/header.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -394,26 +395,26 @@ body:not(.user-is-tabbing) a:focus {
     font-size: var(--font-size-normal);
 }
 
-@media (max-width: 500px) {
+.header__text {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+.header__text p {
+    margin: 1.5rem 0 3.5rem;
+    max-width: var(--container-medium-width);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: var(--font-size-medium);
+}
+
+@media(max-width: 500px) {
     .header {
         text-align: center;
     }
 
-    .header__text {
-        position: relative;
-        top: auto;
-        transform: none;
-    }
-
     .header__text p {
-        margin: 1.5rem 0 3.5rem;
-        max-width: 100%; /* Adjusted for smaller screens */
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: var(--font-size-medium);
-    }
-
-    .header {
-        background-size: auto; /* Adjusted for smaller screens */
+        transform: scale(.8);
     }
 }
 
